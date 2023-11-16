@@ -1,0 +1,15 @@
+html {
+    background-color: rgb(37, 37, 37);
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+}
