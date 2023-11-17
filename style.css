@@ -1,8 +1,49 @@
+:root {
+    --dark-grey: rgb(54, 54, 54);
+}
+
 html {
     background-color: rgb(37, 37, 37);
     color: white;
     font-family: Helvetica, Arial, sans-serif;
     font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin: 30px auto;
+}
+
+ul, ol {
+    list-style-position: inside;
+    padding: 0 40px;
+    width: 60%;
+    background-color: var(--dark-grey);
+    border-radius: 20px;
+}
+
+li {
+    padding: 10px;
+}
+
+ul.main {
+    width: 80%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.main li {
+    background-color: var(--dark-grey);
+    padding: 10px 20px;;
+    width: 20%;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 a {
